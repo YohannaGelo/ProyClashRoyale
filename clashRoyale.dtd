@@ -1,0 +1,45 @@
+<!-- <!DOCTYPE clashRoyale [   (esto debería ponerse para iniciar este archivo, pero como da error lo quitamos) -->
+
+<!ELEMENT clashRoyale (usuario, cartas, arenas, cofres)>
+    <!ELEMENT usuario (nick, trofeos, nivel, arenaActual, nombreArenaActual, batallasGanadas, clan?)>
+        <!ELEMENT nick (#PCDATA)>
+        <!ELEMENT trofeos (#PCDATA)>
+        <!ELEMENT nivel (#PCDATA)>
+        <!ELEMENT arenaActual (#PCDATA)>
+        <!ELEMENT nombreArenaActual (#PCDATA)>
+        <!ELEMENT batallasGanadas (#PCDATA)>
+        <!ELEMENT clan (tipoMiembro, nombre, puntosClan, ubicacion)>
+            <!ELEMENT tipoMiembro (#PCDATA)>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT puntosClan (#PCDATA)>
+            <!ELEMENT ubicacion (#PCDATA)>
+
+    <!ELEMENT cartas (carta+)>
+        <!ELEMENT carta (id, nombre, descripcion, tipo, nivel, caracteristicas+, objetivos, evolucion?, estructura?)>
+            <!ELEMENT id (#PCDATA)>
+            <!ELEMENT tipo (#PCDATA)>
+            <!ATTLIST tipo opciones (Común | Especial | Épica | Legendaria) #REQUIRED>
+            <!ELEMENT caracteristicas (caracteristica+)>
+                <!ELEMENT caracteristica (id, descripcion, valor)>
+                    <!ELEMENT descripcion (#PCDATA)>
+                    <!ELEMENT valor (#PCDATA)>
+            <!ELEMENT objetivos (#PCDATA)>
+            <!ELEMENT evolucion (#PCDATA)>
+            <!ELEMENT estructura (#PCDATA)>
+
+    <!ELEMENT arenas (arena+)>
+        <!ELEMENT arena (id, nombre, copasNecesarias)>
+            <!ELEMENT copasNecesarias (#PCDATA)>
+
+    <!ELEMENT cofres (cofre+)>
+        <!ELEMENT cofre (id, tipoCofre, tiempoDesbloqueo, contenido)>
+            <!ELEMENT tipoCofre (#PCDATA)>
+            <!ELEMENT tiempoDesbloqueo (#PCDATA)>
+            <!ELEMENT contenido (oro, cantidadCartas, especiales, epicas?, legendarias?)>
+                <!ELEMENT oro (#PCDATA)>
+                <!ELEMENT cantidadCartas (#PCDATA)>
+                <!ELEMENT especiales (#PCDATA)>
+                <!ELEMENT epicas (#PCDATA)>
+                <!ELEMENT legendarias (#PCDATA)>
+
+<!--]> -->

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clashRoyale SYSTEM "clashRoyale.dtd">
+<?xml-stylesheet type="text/css" href="clashRoyale.css"?>
+
+<clashRoyale>
+    <!-- En este apartado metemos la información del usuario, en este caso, yo misma -->
+    <usuario>
+        <nick>Yuurey</nick>
+        <trofeos>6634</trofeos>
+        <nivel>43</nivel>
+        <arenaActual>18</arenaActual>
+        <nombreArenaActual>Santuario del silencio</nombreArenaActual>
+        <batallasGanadas>4419</batallasGanadas>
+        <clan>  <!-- opcional -->
+            <tipoMiembro>Veterano</tipoMiembro>
+            <nombre>Nightmares</nombre>
+            <puntosClan>69931</puntosClan>
+            <ubicacion>España</ubicacion>
+        </clan>
+    </usuario>
+
+    <!-- CARTAS FAVORITAS -->
+    <!-- Mostraré aquí mis cuatro cartas favoritas -->
+    <cartas>
+
+        <!-- Mi primera legendaria, el Mago eléctrico, siempre en mi mazo -->
+        <carta>
+            <id>01</id>
+            <nombre>Mago eléctrico</nombre>
+            <descripcion>Aterriza con un estruendo, aturde a los enemigos cercanos y lanza rayos con ambas manos. Le encanta ser el centro de atención...</descripcion>
+            <tipo opciones="Legendaria"/>
+            <nivel>14</nivel>
+            <!-- Algunas de las carcaterísticas más importantes junto a sus valores -->
+            <caracteristicas>
+                <caracteristica>
+                    <id>1</id>
+                    <descripcion>Coste de elixir</descripcion>
+                    <valor>4</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>2</id>
+                    <descripcion>Daño</descripcion>
+                    <valor>145 * 2</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>3</id>
+                    <descripcion>Daño por segundo</descripcion>
+                    <valor>80 * 2</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>4</id>
+                    <descripcion>Daño por generación</descripcion>
+                    <valor>254</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>5</id>
+                    <descripcion>Vida</descripcion>
+                    <valor>944</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>6</id>
+                    <descripcion>Velocidad</descripcion>
+                    <valor>Alta</valor>
+                </caracteristica>
+            </caracteristicas>
+
+            <objetivos>De tierra y aire</objetivos>
+        </carta>
+
+        <!-- Una de las últimas incorporaciones se ha colado entre las que más juego -->
+        <carta>
+            <id>02</id>
+            <nombre>Lanzafuegos</nombre>
+            <descripcion>Dispara fuegos artificialles que explotan al impactar en el objetivo y a las unidades que se encuentren detrás con sus chispas. ¡No juegues con fuego!</descripcion>
+            <tipo opciones="Común"/>  
+            <nivel>14</nivel>
+            <!-- Algunas de las carcaterísticas más importantes junto a sus valores -->
+            <caracteristicas>
+                <caracteristica>
+                    <id>1</id>
+                    <descripcion>Coste de elixir</descripcion>
+                    <valor>3</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>2</id>
+                    <descripcion>Daño</descripcion>
+                    <valor>85 * 5</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>3</id>
+                    <descripcion>Vida</descripcion>
+                    <valor>403</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>4</id>
+                    <descripcion>Velocidad</descripcion>
+                    <valor>Alta</valor>
+                </caracteristica>
+            </caracteristicas>
+
+            <objetivos>De tierra y aire</objetivos>
+            <evolucion>Cada 2 ciclos</evolucion>      <!-- opcional -->
+        </carta>
+
+        <!-- Una carta que nunca me gustó y que ahora no paro de jugar -->
+        <carta>
+            <id>03</id>
+            <nombre>P.E.K.K.A</nombre>
+            <descripcion>Una luchadora cuerpo a cuerpo pesada y lenta. Se contonea ligeramente al andar, ¡pero atiza un puñetazo que no veas!</descripcion>
+            <tipo opciones="Épica"/>  
+            <nivel>13</nivel>
+            <!-- Algunas de las carcaterísticas más importantes junto a sus valores -->
+            <caracteristicas>
+                <caracteristica>
+                    <id>1</id>
+                    <descripcion>Coste de elixir</descripcion>
+                    <valor>7</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>2</id>
+                    <descripcion>Daño</descripcion>
+                    <valor>984</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>2</id>
+                    <descripcion>Daño por segundo</descripcion>
+                    <valor>546</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>4</id>
+                    <descripcion>Vida</descripcion>
+                    <valor>4535</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>5</id>
+                    <descripcion>Velocidad</descripcion>
+                    <valor>Baja</valor>
+                </caracteristica>
+            </caracteristicas>
+
+            <objetivos>Terrestre</objetivos> 
+        </carta>
+
+        <!-- Mi estructura favorita, defiende y ataca a pesar de sus nerfeos -->
+        <carta>
+            <id>04</id>
+            <nombre>Horno</nombre>
+            <descripcion>El horno genera un espíritu de fuego cada vez. También es estupendo para preparar tortitas.</descripcion>
+            <tipo opciones="Especial"/>  
+            <nivel>14</nivel>
+            <!-- Algunas de las carcaterísticas más importantes junto a sus valores -->
+            <caracteristicas>
+                <caracteristica>
+                    <id>1</id>
+                    <descripcion>Coste de elixir</descripcion>
+                    <valor>4</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>2</id>
+                    <descripcion>Tiempo de vida</descripcion>
+                    <valor>28 segundos</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>3</id>
+                    <descripcion>Velocidad de generación</descripcion>
+                    <valor>5 segundos</valor>
+                </caracteristica>
+                <caracteristica>
+                    <id>4</id>
+                    <descripcion>Vida</descripcion>
+                    <valor>1124</valor>
+                </caracteristica>
+            </caracteristicas>
+
+            <objetivos>De tierra y aire</objetivos> 
+            <estructura>Sí</estructura>
+        </carta>
+
+    </cartas>
+
+    <!-- ARENAS CERCANAS -->
+    <!-- Una lista de las arenas que estan alrededor de la mía -->
+    <arenas>
+        <!-- En cada una muestro el nombre, su identificador en el juego y las copas necesarias para llegar -->
+
+        <arena>
+            <id>17</id>
+            <nombre>Cripta Real</nombre>
+            <copasNecesarias>6000</copasNecesarias>
+        </arena>
+
+        <arena>
+            <id>18</id>
+            <nombre>Santuario del silencio</nombre>
+            <copasNecesarias>6500</copasNecesarias>
+        </arena>
+
+        <arena>
+            <id>19</id>
+            <nombre>Termas de dragones</nombre>
+            <copasNecesarias>7000</copasNecesarias>
+        </arena>
+
+        <arena>
+            <id>20</id>
+            <nombre>Campo de entrenamiento</nombre>
+            <copasNecesarias>7500</copasNecesarias>
+        </arena>
+
+    </arenas>
+
+    <!-- ALGUNOS COFRES -->
+    <!-- Información sobre el desbloqueo y el contenido de algunos cofres que se pueden conseguir -->
+    <cofres>
+        <cofre>
+            <id>1</id>
+            <tipoCofre>Cofre de oro</tipoCofre>
+            <tiempoDesbloqueo>3 horas</tiempoDesbloqueo>
+            <contenido>
+                <oro>3780 - 4320</oro>
+                <cantidadCartas>x90</cantidadCartas>
+                <especiales>x15</especiales>
+            </contenido>
+        </cofre>
+
+        <cofre>
+            <id>2</id>
+            <tipoCofre>Cofre gigante</tipoCofre>
+            <tiempoDesbloqueo>12 horas</tiempoDesbloqueo>
+            <contenido>
+                <oro>8232</oro>
+                <cantidadCartas>x392</cantidadCartas>
+                <especiales>x78</especiales>
+            </contenido>
+        </cofre>
+
+        <cofre>
+            <id>3</id>
+            <tipoCofre>Cofre de la suerte</tipoCofre>
+            <tiempoDesbloqueo>24 horas</tiempoDesbloqueo>
+            <contenido>
+                <oro>5800</oro>
+                <cantidadCartas>x274</cantidadCartas>
+                <especiales>x78</especiales>
+                <epicas>x9</epicas>       <!-- opcional -->
+                <legendarias>x1</legendarias>     <!-- opcional -->
+            </contenido>
+        </cofre>
+    </cofres>
+
+</clashRoyale>
